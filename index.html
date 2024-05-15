@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 
   <title>Sujeito Programador - Meu portfolio</title>
 </head>
@@ -24,6 +25,9 @@
       </li>
       <li>
         <a href="#projetos">Projetos</a>
+      </li>
+      <li>
+        <a href="#contato">Contato</a>
       </li>
     </ul>
   </nav>
@@ -62,19 +66,43 @@
     <p>Conheça meus últimos projetos</p>
 
     <div class="project-list">
-      <img src="" alt="Foto do projeto 1">
-      <img src="" alt="Foto do projeto 2">
-      <img src="" alt="Foto do projeto 3">
+      <img src="images/projeto1.png" alt="Foto do projeto 1">
+      <img src="images/projeto2.png" alt="Foto do projeto 2">
+      <img src="images/projeto3.png" alt="Foto do projeto 3">
     </div>
 
-    <div>
-      <img src="" alt="Foto do projeto 2">
-      <img src="" alt="Foto do projeto 1">
-      <img src="" alt="Foto do projeto 3">
-    </div>
+    <div class="project-list2">
+      <img src="images/projeto2.png" alt="Foto do projeto 2">
+      <img src="images/projeto1.png" alt="Foto do projeto 1">
+      <img src="images/projeto3.png" alt="Foto do projeto 3">
+    </div><br>
 
-    <button >Faça um orçamento</button>
+    <button class="button-orçamento">Faça um orçamento</button>
   </section>
+
+  <section>
+    <div id="contato" class="contato">
+      <form>
+      <h2>Deseja nos contatar?</h2><br>
+      <p>Preencha os dados de contato</p><br>
+
+      <label for="campo-nome">Nome:</label><br>
+      <input id="campo-nome" type="text" placeholder="Digite seu nome">
+        <br>
+        <br>
+      <label for="campo-email">E-mail:</label><br>
+      <input id="campo-email" type="email" placeholder="Digite seu e-mail">
+        <br>
+        <br>
+      <label for="campo-telefone">Telefone:</label><br>
+      <input id="campo-telefone" type="tel" placeholder="Digite seu telefone">
+        <br>
+        <br>
+      <label for="campo-senha">Senha: </label><br>
+      <input id="campo-senha" type="password" placeholder="Digite sua senha">
+      </form>
+    </div>
+  </section><br><br><br><br>
   <!-- FIM PROJETOS -->
 
   <!-- INICIO RODAPE -->
